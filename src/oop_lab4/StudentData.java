@@ -1,53 +1,47 @@
 package oop_lab4;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+//สร้าง Method สำหรับรับค่าข้อมูลนักศึกษาประกอบด้วย
+//1. ชื่อ-สกุล
+//2. ที่อยู่
+//3. รหัสนักศึกษา
+//4. สาขาและมหาวิทยาลัย
+//5. email
 public class StudentData {
-    public static String main(String[] args) {
-       BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-      public static String getname()throws IOException {
-          System.out.print("Enter your name: ");
-          return reader.readLine();
-    }//getname
-
-   public static String getAdderss()throws IOException {
-        System.out.print("Enter your Adderss: ");
+    public static BufferedReader reader = new BufferedReader(
+            new InputStreamReader(System.in));
+    public static String getName()throws IOException{
+        System.out.print("Enter your Name: ");
         return reader.readLine();
-    }//getAdderss
-
- public static String getStdID()throws IOException {
-        System.out.print("Enter your StdID: ");
+    }//getName
+    public static String getAddress()throws IOException{
+        System.out.print("Enter your Address: ");
         return reader.readLine();
-    }//getID
-
-    public static String getBranch()throws IOException {
-        System.out.print("Enter your Branch: ");
+    }
+    public static String getStdID()throws IOException{
+        System.out.print("Enter your ID: ");
         return reader.readLine();
-    }//getBranch
-
-   public static String getmajor()throws IOException {
-        System.out.print("Enter your major: ");
+    }
+    public static String getFaculty()throws IOException{
+        System.out.print("Enter your major and faculty: ");
         return reader.readLine();
-    }//getmajor
-
-    public static String getemail()throws IOException {
+    }
+    public static String getEmail()throws IOException{
         System.out.print("Enter your email: ");
         return reader.readLine();
-    }//getemail
-
-    public static void main(String[] args) throws IOException{
-        String name =getname();
-        String address =getAdderss();
-        String StdID =getStdID();
-        String Branch =getBranch();
-        String major =getmajor();
-        String email =getemail();
-        System.out.println(name+"\n"+address+"\n"+StdID+"\n"+Branch+"\n"major+"\n"+email+"\n");
-        System.out.println(getname()+"\n"+getAdderss());
     }
+    public static void main(String[] args) throws IOException{
+        String name = getName();
+        String address = getAddress();
+        String id = getStdID();
+        String fac = getFaculty();
+        String email = getEmail();
+        System.out.println(name+"\n"+address+"\n"+id+"\n"+fac+"\n"+email);
+        System.out.println(getName()+"\n"+getAddress()+"\n"+getStdID()+"\n"+getFaculty()+"\n"+getEmail());
+    }//main
 
-      }//main
 }//class
+
+
