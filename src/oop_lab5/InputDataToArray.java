@@ -14,16 +14,11 @@ public class InputDataToArray {
         int num[]=new int[MAX];
         num = inputData(num);
        showData(num);
+       summation(num);
 
     }//main
 
-    private static void showData(int[] num) {
-        System.out.print("Data in array: ");
-        for (int val: num)
-            System.out.print(val+" ");
-    }
-
-    private static int[] inputData(int []num) {
+    private static int[] inputData(int[] num) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Plese enter data to array");
         for (int i=0;i<num.length;i++){
@@ -31,6 +26,25 @@ public class InputDataToArray {
             num[i]=scanner.nextInt();
         }
         return num;
+
     }
+
+    private static void summation(int[] num) {
+        int total = 0;
+        for (int i=0;i<num.length;i++){
+            total += num[i];
+        }
+            System.out.println("\n The summation of value in array is: "+total);
+        System.out.println("The average value "+"in array is: "+total/MAX);
+    }
+
+    private static void showData(int[] num) {
+        System.out.print("Data in array: ");
+        for (int val: num){
+            System.out.print(val+" ");
+    }
+
+
+    }//main
 
 }//class
