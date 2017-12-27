@@ -21,7 +21,25 @@ public class InputDataToArray {
        summation(num);
        findMax(num);
        findMin(num);
+       DescedingOrder(num);
+       AscedingOrder(num);
+
+
+
     }//main
+
+    private static void AscedingOrder(Integer[] num) {
+      Arrays.sort(num,Collections.reverseOrder());
+        System.out.println("Asceding Order: ");
+        showData(num);
+
+    }// AscedingOrder
+
+    private static void DescedingOrder(Integer[] num) {
+        Arrays.sort(num);
+        System.out.println("Desceding Order: ");
+        showData(num);
+    }//DescedingOrder
 
     private static void findMin(Integer[] num) {
         System.out.println("The minimum value is:  "+(Collections.min(Arrays.asList(num))));
