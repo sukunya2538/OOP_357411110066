@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0598d8-24a0-45e1-97d6-9d35854f4ead" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/oop_lab5/myArray2D.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop_lab5/myArray2D.java" afterPath="$PROJECT_DIR$/src/oop_lab5/myArray2D.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="myArray2D.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/oop_lab5/myArray2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+            <state relative-caret-position="-5">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -466,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514365563060</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="myArray2Dการโชว์จากอาเรย์2มิติ">
+      <created>1514367579695</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1514367579695</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -520,7 +527,8 @@
     <MESSAGE value="TestArray" />
     <MESSAGE value="findMaxfindMin" />
     <MESSAGE value="การเรียงลำดับ Sorting data in Arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="การเรียงลำดับ Sorting data in Arrays" />
+    <MESSAGE value="myArray2Dการโชว์จากอาเรย์2มิติ" />
+    <option name="LAST_COMMIT_MESSAGE" value="myArray2Dการโชว์จากอาเรย์2มิติ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -733,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/oop_lab5/myArray2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
+        <state relative-caret-position="-5">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
