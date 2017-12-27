@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e0598d8-24a0-45e1-97d6-9d35854f4ead" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/oop_lab5/myArray2D.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/oop_lab5/InputDataToArray.java" afterPath="$PROJECT_DIR$/src/oop_lab5/InputDataToArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InputDataToArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/oop_lab5/InputDataToArray.java">
+      <file leaf-file-name="myArray2D.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/oop_lab5/myArray2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state relative-caret-position="508">
+              <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/oop_lab4/StudentData.java" />
         <option value="$PROJECT_DIR$/src/oop_lab5/TestArray.java" />
         <option value="$PROJECT_DIR$/src/oop_lab5/InputDataToArray.java" />
+        <option value="$PROJECT_DIR$/src/oop_lab5/myArray2D.java" />
       </list>
     </option>
   </component>
@@ -148,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InputDataToArray">
+  <component name="RunManager" selected="Application.myArray2D">
     <configuration name="InputDataToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -157,25 +158,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="oop_lab5.InputDataToArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="OOP_357411110066" />
-      <envs />
-    </configuration>
-    <configuration name="OverLoadMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="oop_lab4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="oop_lab4.OverLoadMethod" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -325,20 +307,39 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="myArray2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="oop_lab5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="oop_lab5.myArray2D" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="OOP_357411110066" />
+      <envs />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.OverLoadMethod" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StudentData" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TextArrays" />
-      <item index="4" class="java.lang.String" itemvalue="Application.InputDataToArray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StudentData" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TextArrays" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InputDataToArray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.myArray2D" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.InputDataToArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TextArrays" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StudentData" />
-        <item index="4" class="java.lang.String" itemvalue="Application.OverLoadMethod" />
+        <item index="0" class="java.lang.String" itemvalue="Application.myArray2D" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InputDataToArray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TextArrays" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StudentData" />
       </list>
     </recent_temporary>
   </component>
@@ -458,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514364724211</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="การเรียงลำดับ Sorting data in Arrays">
+      <created>1514365563060</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1514365563060</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -473,7 +481,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14267015" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51963353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -511,7 +519,8 @@
     <MESSAGE value="Methods student" />
     <MESSAGE value="TestArray" />
     <MESSAGE value="findMaxfindMin" />
-    <option name="LAST_COMMIT_MESSAGE" value="findMaxfindMin" />
+    <MESSAGE value="การเรียงลำดับ Sorting data in Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="การเรียงลำดับ Sorting data in Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -716,6 +725,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop_lab5/myArray2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="45" column="12" lean-forward="true" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
