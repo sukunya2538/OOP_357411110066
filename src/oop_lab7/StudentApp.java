@@ -20,15 +20,13 @@ public class StudentApp {
         student2.setName("Girl Trang");
         System.out.println(student2.toString());
 
+
        Student student3 = new Student();
        //student3 = inputData(student3);
        //System.out.println(student3.toString());
 
        System.out.println(student1.gender);
        System.out.println(Student.gender);
-
-
-
 
     }//main
 
