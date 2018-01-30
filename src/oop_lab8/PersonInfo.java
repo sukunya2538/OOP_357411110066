@@ -11,6 +11,16 @@ public class PersonInfo {
           System.out.println(student.toString());
           System.out.println(student.getName());
 
+          Employee employee = new Employee("1809700249043",
+                  "sam","Gril"
+                  ,23,
+                  "1234",
+                  "PC",
+                  "25000");
+        System.out.println(employee.toString());
+        System.out.println(employee.getName());
+
+
 
 
 
