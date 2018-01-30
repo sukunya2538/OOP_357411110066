@@ -9,8 +9,7 @@ public class SuperCar {
     private String carBrand;
     private String carColor;
     private String engSize;
-    private String maxspeed;
-    private String country;
+
 
 
     public SuperCar (){}
@@ -18,8 +17,7 @@ public class SuperCar {
         this.carBrand = b;
         this.carColor = c;
         this.engSize = e;
-        this.maxspeed = n;
-        this.country = k;
+
     }
 
     public String getSuperCarInfo() {
@@ -27,8 +25,7 @@ public class SuperCar {
                 "carBrand='" + carBrand + '\'' +
                 ", carColor='" + carColor + '\'' +
                 ", engSize='" + engSize + '\'' +
-                ", maxspeed='" + maxspeed + '\'' +
-                ", country='" + country + '\'' +
+
 
                 '}';
     }

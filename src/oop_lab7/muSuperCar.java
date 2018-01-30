@@ -14,7 +14,7 @@ public class muSuperCar {
     private static ArrayList inputData(ArrayList myCarList) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please insert super car info: ");
-        for (int i =0;i<2;i++){
+        for (int i =0;i<10;i++){
             System.out.println("Super car: "+(i+1));
             System.out.print("Brand: ");
             String b = scanner.nextLine();
