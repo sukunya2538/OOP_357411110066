@@ -14,7 +14,11 @@ public class myPersonApp {
 
            Person person1 = new Person("12","onnida",address,job);
 
-        System.out.println(person1.toString());
+             System.out.println(person1.toString());
+
+           person.getJob().setSalay(35000);
+           System.out.println(person.getJob().getSalay());
+           System.out.println(person.getAddress().getPostCode());
 
         }//main
 }//class
